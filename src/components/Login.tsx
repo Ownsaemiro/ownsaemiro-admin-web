@@ -48,7 +48,7 @@ function LogIn() {
     } else if (isManager) { // 관리자 로그인
       if (ID === "managerID" && PW === "managerPW") {
         alert("관리자 로그인 성공");
-        // navigate('/mainpage');
+        navigate('/mainpage');
       } else {
         alert("아이디 또는 비밀번호가 올바르지 않습니다.");
       }
